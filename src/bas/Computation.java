@@ -1,18 +1,20 @@
 package bas;
 import java.util.Scanner;
-//method (computation, in/out money)
-public class Computation extends Account{
+// use to compute, get result, and store the amount
+public class Computation{
 	Scanner input = new Scanner(System.in);
+	private double balance;
 	private double userAmount;
 	private int userChoice;
 	
+	// set the userChoice
 	public void setUserChoice(int userChoice) {
 		this.userChoice = userChoice;
 	}
-	
+	// get the value of userChoice
 	public int getUserChoice() {return userChoice;}
 	
-	
+	// switch statement
 	public int Result(int userChoice) {
 		
 		switch(userChoice) {

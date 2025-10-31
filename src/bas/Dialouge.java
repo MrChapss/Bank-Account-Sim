@@ -1,5 +1,5 @@
 package bas;
-
+// used for instructions and yapping session
 public class Dialouge {
 	public static void EnterName() {
 		System.out.print("Enter your account name: ");

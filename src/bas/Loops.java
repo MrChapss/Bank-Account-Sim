@@ -1,5 +1,5 @@
 package bas;
-
+// use to hide the loops logic
 public class Loops{
 	public Boolean CheckAcc(String accountNum) {
 		while(true) {
